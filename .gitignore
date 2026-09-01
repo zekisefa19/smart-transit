@@ -1,0 +1,69 @@
+# ==========================================
+# 1. HASSAS VE GİZLİ AYAR DOSYALARI (SECURITY)
+# ==========================================
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.*.json
+!appsettings.Example.json
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# Log dosyaları
+Logs/
+logs/
+*.log
+
+# ==========================================
+# 2. .NET / C# BACKEND DOSYALARI
+# ==========================================
+bin/
+obj/
+out/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+.vs/
+.idea/
+*.rsuser
+
+# Entity Framework / Veritabanı
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# 3. REACT / VITE / NODE FRONTEND DOSYALARI
+# ==========================================
+node_modules/
+dist/
+build/
+.output/
+.vite/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 4. İŞLETİM SİSTEMİ VE EDİTÖR DOSYALARI
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
